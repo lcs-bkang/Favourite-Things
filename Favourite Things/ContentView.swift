@@ -6,11 +6,17 @@
 //
 
 import SwiftUI
-
+// SwiftUI is built with structures
+// Conforms to the View protocol
+// View is a structure that is part of the user interface
+// Each structure that conforms to the View protocol must follow two rules
+// 1) It must have a body property
+// 2) And must return only one top-level view
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Image("Ken you not")
+            .resizable()
+            .scaledToFit()
     }
 }
 
