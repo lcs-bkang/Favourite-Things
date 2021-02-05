@@ -14,9 +14,24 @@ import SwiftUI
 // 2) And must return only one top-level view
 struct ContentView: View {
     var body: some View {
-        Image("Ken you not")
-            .resizable()
-            .scaledToFit()
+        
+        NavigationView {
+            
+            List {
+                NavigationLink(
+                    destination: Soccer()) {
+                    Text("Soccer")
+                }
+                NavigationLink(destination: Memes()) {
+                    Text("Memes")
+                }
+                NavigationLink(destination: Tech()) {
+                    Text("Tech")
+                    
+                }
+            }
+            .navigationTitle("Favourite Things")
+        }
     }
 }
 
