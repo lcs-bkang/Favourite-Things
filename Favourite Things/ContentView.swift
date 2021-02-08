@@ -19,51 +19,14 @@ struct ContentView: View {
             
             List {
                 NavigationLink(destination: Soccer()) {
-                    HStack {
-                        Text("⚽️")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Soccer")
-                                .font(.body)
-                                .fontWeight(.bold)
-                        
-                            Text("The best sport in the world.")
-                                .font(.subheadline)
-                            
-                        }
-                    }
+                    ListItem(emoji: "⚽️", title: "Soccer", sub: "The best sport in the world.")
                     
                 }
                 NavigationLink(destination: Memes()) {
-                    HStack {
-                        Text("🤪")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Memes")
-                                .fontWeight(.bold)
-                            
-                            Text("The big funny")
-                                .font(.subheadline)
-
-                        }
-                    }
+                    ListItem(emoji: "🤪", title: "Memes", sub: "The big funny")
                 }
                 NavigationLink(destination: Tech()) {
-                    HStack {
-                        Text("🖥")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Tech")
-                                .font(.body)
-                                .fontWeight(.bold)
-                            
-                            Text("Open Tech.swift")
-                                .font(.subheadline)
-                        }
-                    }
+                    ListItem(emoji: "🖥", title: "Tech", sub: "Open Tech.swift")
                 }
             }
             .navigationTitle("Favourite Things")
@@ -74,5 +37,28 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct ListItem: View {
+    
+    var emoji: String
+    var title: String
+    var sub: String
+    
+    var body: some View {
+        HStack {
+            Text(emoji)
+                .font(.largeTitle)
+            
+            VStack(alignment: .leading) {
+                Text(title)
+                    .fontWeight(.bold)
+                
+                Text(sub)
+                    .font(.subheadline)
+                
+            }
+        }
     }
 }
