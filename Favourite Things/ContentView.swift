@@ -39,26 +39,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-struct ListItem: View {
-    
-    var emoji: String
-    var title: String
-    var sub: String
-    
-    var body: some View {
-        HStack {
-            Text(emoji)
-                .font(.largeTitle)
-            
-            VStack(alignment: .leading) {
-                Text(title)
-                    .fontWeight(.bold)
-                
-                Text(sub)
-                    .font(.subheadline)
-                
-            }
-        }
-    }
-}
