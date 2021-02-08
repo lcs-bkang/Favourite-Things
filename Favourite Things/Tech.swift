@@ -13,7 +13,7 @@ struct Tech: View {
         ScrollView {
             Image("Setup")
                 .resizable()
-                .padding(.all, 0.0)
+                .padding(.all, 1.0)
                 .scaledToFit()
     
             Text("I've been interested in computers and technology for a long time, I even built my own computer.  In addition to being interested in hardware, I'm interested in software and ways computers and tech can be used for convenience and have fun.  Things such as monitors with higher refresh rate, light and wireless mice, and (custom) keyboards with different keyswitches interest me as well.")
@@ -28,5 +28,6 @@ struct Music_Previews: PreviewProvider {
         NavigationView {
         Tech()
         }
+        .preferredColorScheme(.dark)
     }
 }

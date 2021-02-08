@@ -18,16 +18,52 @@ struct ContentView: View {
         NavigationView {
             
             List {
-                NavigationLink(
-                    destination: Soccer()) {
-                    Text("Soccer")
+                NavigationLink(destination: Soccer()) {
+                    HStack {
+                        Text("⚽️")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading) {
+                            Text("Soccer")
+                                .font(.body)
+                                .fontWeight(.bold)
+                        
+                            Text("The best sport in the world.")
+                                .font(.subheadline)
+                            
+                        }
+                    }
+                    
                 }
                 NavigationLink(destination: Memes()) {
-                    Text("Memes")
+                    HStack {
+                        Text("🤪")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading) {
+                            Text("Memes")
+                                .fontWeight(.bold)
+                            
+                            Text("The big funny")
+                                .font(.subheadline)
+
+                        }
+                    }
                 }
                 NavigationLink(destination: Tech()) {
-                    Text("Tech")
-                    
+                    HStack {
+                        Text("🖥")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading) {
+                            Text("Tech")
+                                .font(.body)
+                                .fontWeight(.bold)
+                            
+                            Text("Open Tech.swift")
+                                .font(.subheadline)
+                        }
+                    }
                 }
             }
             .navigationTitle("Favourite Things")
