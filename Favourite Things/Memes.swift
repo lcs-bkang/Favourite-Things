@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Memes: View {
     var body: some View {
-        VStack {
+        ScrollView {
             // Returning an image.  You don't need to write return.
             Image("Ken you not")
                 .resizable()

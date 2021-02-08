@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Soccer: View {
     var body: some View {
-        VStack {
+        ScrollView {
             Image("Kick")
                 .resizable()
                 .padding(.all)
