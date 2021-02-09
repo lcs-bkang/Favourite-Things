@@ -30,6 +30,8 @@ struct ThingDetail: View {
 
 struct ThingDetail_Previews: PreviewProvider {
     static var previews: some View {
+        NavigationView {
         ThingDetail(heroImage: favouriteThings[0].heroImage, details: favouriteThings[0].details, title: favouriteThings[0].title)
+        }
     }
 }
