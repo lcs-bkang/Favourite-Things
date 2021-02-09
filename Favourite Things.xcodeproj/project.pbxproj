@@ -14,7 +14,7 @@
 		A6D6414725CDA8BF0018C8CE /* Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6414625CDA8BF0018C8CE /* Soccer.swift */; };
 		A6D6414A25CDA8E10018C8CE /* Memes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6414925CDA8E10018C8CE /* Memes.swift */; };
 		A6D6414D25CDA90B0018C8CE /* Tech.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6414C25CDA90B0018C8CE /* Tech.swift */; };
-		A6D6415125D1A32B0018C8CE /* ListItem .swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6415025D1A32B0018C8CE /* ListItem .swift */; };
+		A6D6415125D1A32B0018C8CE /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6415025D1A32B0018C8CE /* ListItem.swift */; };
 		A6D6416525D320F40018C8CE /* ThingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6416425D320F40018C8CE /* ThingDetail.swift */; };
 		A6D6416925D320FD0018C8CE /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6416825D320FD0018C8CE /* Thing.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +29,7 @@
 		A6D6414625CDA8BF0018C8CE /* Soccer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soccer.swift; sourceTree = "<group>"; };
 		A6D6414925CDA8E10018C8CE /* Memes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memes.swift; sourceTree = "<group>"; };
 		A6D6414C25CDA90B0018C8CE /* Tech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech.swift; sourceTree = "<group>"; };
-		A6D6415025D1A32B0018C8CE /* ListItem .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListItem .swift"; sourceTree = "<group>"; };
+		A6D6415025D1A32B0018C8CE /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		A6D6416425D320F40018C8CE /* ThingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetail.swift; sourceTree = "<group>"; };
 		A6D6416825D320FD0018C8CE /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				A6D6413825CC40A40018C8CE /* ContentView.swift */,
-				A6D6415025D1A32B0018C8CE /* ListItem .swift */,
+				A6D6415025D1A32B0018C8CE /* ListItem.swift */,
 				A6D6416425D320F40018C8CE /* ThingDetail.swift */,
 			);
 			path = Views;
@@ -174,7 +174,7 @@
 			files = (
 				A6D6416925D320FD0018C8CE /* Thing.swift in Sources */,
 				A6D6413925CC40A40018C8CE /* ContentView.swift in Sources */,
-				A6D6415125D1A32B0018C8CE /* ListItem .swift in Sources */,
+				A6D6415125D1A32B0018C8CE /* ListItem.swift in Sources */,
 				A6D6416525D320F40018C8CE /* ThingDetail.swift in Sources */,
 				A6D6414A25CDA8E10018C8CE /* Memes.swift in Sources */,
 				A6D6414D25CDA90B0018C8CE /* Tech.swift in Sources */,
