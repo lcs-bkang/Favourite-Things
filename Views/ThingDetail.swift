@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ThingDetail: View {
+    
     var heroImage: String
     var details: String
     var title: String
@@ -24,7 +25,6 @@ struct ThingDetail: View {
             
         }
         .navigationTitle(title)
-
     }
 }
 

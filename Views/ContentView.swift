@@ -13,24 +13,29 @@ import SwiftUI
 // 1) It must have a body property
 // 2) And must return only one top-level view
 struct ContentView: View {
+    // Place where data is stored
+    var store = favouriteThings
     var body: some View {
-        
+
         NavigationView {
             
-            List {
-                NavigationLink(destination: Soccer()) {
-                    ListItem(emoji: "⚽️", title: "Soccer", sub: "The best sport in the world.")
+            List(favouriteThings) { thing in
+
+                NavigationLink(destination: ThingDetail(heroImage: thing.heroImage,
+                                                        details: thing.details,
+                                                        title: thing.title)) {
+                    
+                    ListItem(emoji: thing.emoji,
+                             title: thing.title,
+                             sub: thing.sub)
                     
                 }
-                NavigationLink(destination: Memes()) {
-                    ListItem(emoji: "🤪", title: "Memes", sub: "The big funny")
-                }
-                NavigationLink(destination: Tech()) {
-                    ListItem(emoji: "🖥", title: "Tech", sub: "Open Tech.swift")
-                }
+                
+
             }
             .navigationTitle("Favourite Things")
         }
+        
     }
 }
 

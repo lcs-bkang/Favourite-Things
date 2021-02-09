@@ -30,7 +30,7 @@ struct ListItem: View {
     }
 }
 
-struct ListItem__Previews: PreviewProvider {
+struct ListItem_Previews: PreviewProvider {
     static var previews: some View {
         ListItem(emoji: "🍆", title: "Testing", sub: "It does in fact work")
     }
