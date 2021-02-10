@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Segments: Identifiable {
+struct Segment: Identifiable {
     
     var id = UUID()
     var image: String

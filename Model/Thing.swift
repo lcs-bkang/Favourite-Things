@@ -13,8 +13,7 @@ struct Thing: Identifiable {
     var emoji: String
     var title: String
     var sub: String
-    var heroImage: String
-    var details: String
+    var segments = [Segment]
 }
 
 // Populate the model

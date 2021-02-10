@@ -9,20 +9,18 @@ import SwiftUI
 
 struct ListItem: View {
     
-    var emoji: String
-    var title: String
-    var sub: String
+    var someThing: Thing
     
     var body: some View {
         HStack {
-            Text(emoji)
+            Text(someThing.emoji)
                 .font(.largeTitle)
             
             VStack(alignment: .leading) {
-                Text(title)
+                Text(someThing.title)
                     .fontWeight(.bold)
                 
-                Text(sub)
+                Text(someThing.sub)
                     .font(.subheadline)
                 
             }
@@ -32,6 +30,6 @@ struct ListItem: View {
 
 struct ListItem_Previews: PreviewProvider {
     static var previews: some View {
-        ListItem(emoji: "🍆", title: "Testing", sub: "It does in fact work")
+        ListItem(someThing: favouriteThings[0])
     }
 }
