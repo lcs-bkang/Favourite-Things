@@ -13,7 +13,7 @@ struct Thing: Identifiable {
     var emoji: String
     var title: String
     var sub: String
-    var segments = [Segment]
+    var segments = [Segment]()
 }
 
 // Populate the model
@@ -22,17 +22,23 @@ let favouriteThings = [
     Thing(emoji: "⚽️",
           title: "Soccer",
           sub: "The best sport in the world.",
-          heroImage: "Kick",
-          details: "Soccer has been my first sport and has made me who I am physically.  Also, I enjoy trying new tricks and competing against other teams.  One of the most important parts of soccer for me is that many of my friends from my soccer team are very close, especially during tournaments where we all hang out in a hotel."),
+          segments: [
+            Segment(image: "Kick",
+                    text: "Soccer has been my first sport and has made me who I am physically.  Also, I enjoy trying new tricks and competing against other teams.  One of the most important parts of soccer for me is that many of my friends from my soccer team are very close, especially during tournaments where we all hang out in a hotel."),
+                
+            ]),
     Thing(emoji: "🤪",
           title: "Memes",
           sub: "The big funny",
-          heroImage: "Ken you not",
-          details: "Memes are funny, depending on the context and what is in the meme.  Mostly, with friends, sharing memes is extremely funny because we all have similar interests and have funny memes for those interests.  For example, sports, certain video games, music, etc."),
+          segments: [
+          Segment(image: "Ken you not",
+                  text: "Memes are funny, depending on the context and what is in the meme.  Mostly, with friends, sharing memes is extremely funny because we all have similar interests and have funny memes for those interests.  For example, sports, certain video games, music, etc.")
+          ]),
     Thing(emoji: "🖥",
           title: "Tech",
           sub: "Open Tech.swift",
-          heroImage: "Setup",
-          details: "I've been interested in computers and technology for a long time, I even built my own computer.  In addition to being interested in hardware, I'm interested in software and ways computers and tech can be used for convenience and have fun.  Things such as monitors with higher refresh rate, light and wireless mice, and (custom) keyboards with different keyswitches interest me as well."),
+          segments: [
+          Segment(image: "Setup", text: "I've been interested in computers and technology for a long time, I even built my own computer.  In addition to being interested in hardware, I'm interested in software and ways computers and tech can be used for convenience and have fun.  Things such as monitors with higher refresh rate, light and wireless mice, and (custom) keyboards with different keyswitches interest me as well."),
+          ]),
     
 ]
