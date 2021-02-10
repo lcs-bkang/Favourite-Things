@@ -9,29 +9,31 @@ import SwiftUI
 
 struct ThingDetail: View {
     
-    var heroImage: String
-    var details: String
-    var title: String
+    var someThing: Thing
     
     var body: some View {
         ScrollView {
         
-            Image(heroImage)
-                .resizable()
-                .scaledToFit()
-            
-            Text(details)
-                .padding()
-            
+            ForEach(someThing.segments) { segment in
+                
+                Image(segment.image)
+                    .resizable()
+                    .scaledToFit()
+                
+                Text(segment.text)
+                    .padding()
+                
+            }
+
         }
-        .navigationTitle(title)
+        .navigationTitle(someThing.title)
     }
 }
 
 struct ThingDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-        ThingDetail(heroImage: favouriteThings[0].heroImage, details: favouriteThings[0].details, title: favouriteThings[0].title)
+        ThingDetail(someThing: favouriteThings[0])
         }
     }
 }

@@ -21,13 +21,9 @@ struct ContentView: View {
             
             List(favouriteThings) { thing in
 
-                NavigationLink(destination: ThingDetail(heroImage: thing.heroImage,
-                                                        details: thing.details,
-                                                        title: thing.title)) {
+                NavigationLink(destination: ThingDetail(someThing: thing)) {
                     
-                    ListItem(emoji: thing.emoji,
-                             title: thing.title,
-                             sub: thing.sub)
+                    ListItem(someThing: thing)
                     
                 }
                 
