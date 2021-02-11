@@ -53,6 +53,9 @@ let favouriteThings = [
 
                 As of now, I haven't played that in over a year and have grown rusty at it, but I'm sure if I put my mind to it, I could try it again.  In recent times, I've not been able to practice as much as before, partly because of the busy school schedule and partly because of my motivation and drive.
 """),
+            Segment(image: "Spotify", text: """
+                Not only is playing music a big part of my life, I also really enjoy listening to music.  My taste in music varies depending on what I am interested in at the time but generally I listen to certain pop/rock bands, and more frequently, rap.  Music extends into other parts of my life, like exercising.  Generally, exercising without listening to music is something I never do.  The same goes for when I am just chilling and not really doing anything.  I will always listen to music to keep myself entertained.
+"""),
             Segment(image: <#T##String#>, text: <#T##String#>)
           ]),
     Thing(emoji: "🖥",
