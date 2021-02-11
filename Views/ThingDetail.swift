@@ -18,10 +18,11 @@ struct ThingDetail: View {
                 
                 Image(segment.image)
                     .resizable()
+                    .padding(.horizontal, 3.0)
                     .scaledToFit()
                 
                 Text(segment.text)
-                    .padding()
+                    .padding(.all, 2.0)
                 
             }
 
