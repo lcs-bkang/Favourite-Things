@@ -39,7 +39,7 @@ let favouriteThings = [
             Segment(image: "PCSA", text: """
                     Personally, my time playing soccer didn't really kick off until I was around 13.  Before that, I wasn't that skilled or into the sport.  However, after learning of a winter academy, the Peterborough Academy, and joining it for every winter up to COVID, I've had a leap in my abilities and love for the sport.
 
-                    I was one of two '05 boys to join the '04 Academy team participating in the PISL (Provincial Indoor Soccer League) and even had a successful part-season, as it was cancelled when COVID hit.  Also, we participated in the Ontario Indoor Cup, and were elinimated by the champions-to-be in the Semi-Finals.  
+                    I was one of two '05 boys to join the '04 Academy team participating in the PISL (Provincial Indoor Soccer League) and even had a successful part-season, as it was cancelled when COVID hit.  Also, we participated in the Ontario Indoor Cup, and were elinimated by the champions-to-be in the Semi-Finals.
                 """),
                 
             ]),
@@ -55,6 +55,11 @@ let favouriteThings = [
           sub: "Open Tech.swift",
           segments: [
           Segment(image: "Setup", text: "I've been interested in computers and technology for a long time, I even built my own computer.  In addition to being interested in hardware, I'm interested in software and ways computers and tech can be used for convenience and have fun.  Things such as monitors with higher refresh rate, light and wireless mice, and (custom) keyboards with different keyswitches interest me as well."),
+          Segment(image: "CustomPC", text: """
+            I was always interested in building my own computer, since firstly, I thought it was a fun and interesting concept that would capture my attention for quite a long time.  I was deeply interested in the concepts of custom water loops and other parts of a custom computer that are definitely only a personalization of it.
+
+            Secondly, I was aware that my hardware at the time was not up to par with what I wanted to use the computer for.  It tended to lag and be very slow.  Now, with my competent hardware, I can safely say that I cannot imagine going back to a slower computer, the MacBook Air included.
+            """)
           ]),
     
 ]
