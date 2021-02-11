@@ -56,7 +56,11 @@ let favouriteThings = [
             Segment(image: "Spotify", text: """
                 Not only is playing music a big part of my life, I also really enjoy listening to music.  My taste in music varies depending on what I am interested in at the time but generally I listen to certain pop/rock bands, and more frequently, rap.  Music extends into other parts of my life, like exercising.  Generally, exercising without listening to music is something I never do.  The same goes for when I am just chilling and not really doing anything.  I will always listen to music to keep myself entertained.
 """),
-            Segment(image: <#T##String#>, text: <#T##String#>)
+            Segment(image: "Clarinet", text: """
+        Not only do I play the piano, I've also touched the clarinet.  While definitely not as skillful as my piano playing, it's something that I'd done quite a bit of in the past.  Like the piano, I have had less time to play this instrument, and definitely for the same reasons.  However, unlike the piano, I have never enjoyed the clarinet as much, and rarely pick it up these days.
+
+        Even though I don't play as much as I did before, it doesn't mean that I don't enjoy music at all.  In fact, since listening to music is such a secondary focus, my busy schedule as not stopped me from listening to music, and has only increased the amount I listen to.
+""")
           ]),
     Thing(emoji: "🖥",
           title: "Tech",
