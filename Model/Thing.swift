@@ -43,12 +43,17 @@ let favouriteThings = [
                 """),
                 
             ]),
-    Thing(emoji: "🤪",
-          title: "Memes",
-          sub: "The big funny",
+    Thing(emoji: "🎶",
+          title: "Music",
+          sub: "One of the most important aspects of my life.",
           segments: [
-          Segment(image: "Ken you not",
-                  text: "Memes are funny, depending on the context and what is in the meme.  Mostly, with friends, sharing memes is extremely funny because we all have similar interests and have funny memes for those interests.  For example, sports, certain video games, music, etc.")
+          Segment(image: "Piano",
+                  text: """
+                I've been a very musical person throughout my life.  I started playing the piano when I was around 8 or 9, and have continued to play it even now.  I'm currently striving for an RCM level 8 certificate, but COVID has paused that goal as of now.  Also, I have tried to play many difficult compositions, one of which was the Beethoven Moonlight Sonata 3rd Movement.
+
+                As of now, I haven't played that in over a year and have grown rusty at it, but I'm sure if I put my mind to it, I could try it again.  In recent times, I've not been able to practice as much as before, partly because of the busy school schedule and partly because of my motivation and drive.
+"""),
+            Segment(image: <#T##String#>, text: <#T##String#>)
           ]),
     Thing(emoji: "🖥",
           title: "Tech",

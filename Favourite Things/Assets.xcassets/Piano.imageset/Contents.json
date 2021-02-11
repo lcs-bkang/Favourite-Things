@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "4f2ab1a42b7eac73310155295fc635c7-2.jpg",
+      "filename" : "Piano.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "4f2ab1a42b7eac73310155295fc635c7-1.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "4f2ab1a42b7eac73310155295fc635c7.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
