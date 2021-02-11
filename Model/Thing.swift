@@ -35,7 +35,12 @@ let favouriteThings = [
                     Of course, I wouldn't be a soccer fan without having an opinion on the Lionel Messi vs Cristiano Ronaldo debate.  For myself, I believe that Lionel Messi is the superior player.  Of course, this is a highly debated topic throughout their careers, and I highly respect them both.
 
                     I just feel that Messi is more elegant in his play, something I prefer over Ronaldo's brute force dance.
-                """)
+                """),
+            Segment(image: "PCSA", text: """
+                    Personally, my time playing soccer didn't really kick off until I was around 13.  Before that, I wasn't that skilled or into the sport.  However, after learning of a winter academy, the Peterborough Academy, and joining it for every winter up to COVID, I've had a leap in my abilities and love for the sport.
+
+                    I was one of two '05 boys to join the '04 Academy team participating in the PISL (Provincial Indoor Soccer League) and even had a successful part-season, as it was cancelled when COVID hit.  Also, we participated in the Ontario Indoor Cup, and were elinimated by the champions-to-be in the Semi-Finals.  
+                """),
                 
             ]),
     Thing(emoji: "🤪",
