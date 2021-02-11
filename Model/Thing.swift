@@ -59,7 +59,12 @@ let favouriteThings = [
             I was always interested in building my own computer, since firstly, I thought it was a fun and interesting concept that would capture my attention for quite a long time.  I was deeply interested in the concepts of custom water loops and other parts of a custom computer that are definitely only a personalization of it.
 
             Secondly, I was aware that my hardware at the time was not up to par with what I wanted to use the computer for.  It tended to lag and be very slow.  Now, with my competent hardware, I can safely say that I cannot imagine going back to a slower computer, the MacBook Air included.
-            """)
+            """),
+            Segment(image: "CustomKeyboard", text: """
+                One of my more recent interests in tech is the concept of a custom keyboard.  I think it is interesting how, as more time passes, the enthusiast and tech community has shifted more towards creating their own custom products.  Keyboards are something that can really change depending on what you use to make one, and how you prepare it.
+
+                While I haven't gotten around to purchasing the materials to create my own, partly because of the shortage of these materials, I will definitely eventually have purchased and created my own keyboard for use.
+                """)
           ]),
     
 ]
