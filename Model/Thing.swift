@@ -27,7 +27,7 @@ let favouriteThings = [
                     text: "Soccer has been my first sport and has made me who I am physically.  Also, I enjoy trying new tricks and competing against other teams.  One of the most important parts of soccer for me is that many of my friends from my soccer team are very close, especially during tournaments where we all hang out in a hotel."),
             Segment(image: "TorontoFC",
                     text: """
-                    The first and only professional soccer game that I attended was a match between Toronto FC and Minnesota United.  As the first professional match I've ever been to, it was the greatest one to have chosen to watch.  It had everything: comebacks, a lot of goals, crazy skills, penalties, and even red cards.  There's no other match, even if it was in the lowly MLS, that I'd have watched instead for the first professional match I'd ever watched.
+                    The first and only professional soccer game that I attended was a match between Toronto FC and Minnesota United.  As the first professional match I've ever been to, it was the greatest one to have chosen to watch.  It had everything: comebacks, a lot of goals, crazy skills, penalties, and even red cards.  There's no other match that I'd have watched instead for the first professional match I'd ever watched.  Even if this game was in the lowly MLS.
                 """)
                 
             ]),
